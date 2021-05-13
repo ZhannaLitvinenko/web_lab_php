@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <form id="input-form" action="links.php" method="GET">
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label for="name-input">Your name:</label>
+                <input class="form-control form-control-sm" name="name-input" id="name-input" type="text"
+                    placeholder="name">
+                <div class="valid-feedback">Name is correct.</div>
+                <div class="invalid-feedback">Name must contain only letters.</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label for="surname-input">Your surname:</label>
+                <input class="form-control form-control-sm" name="surname-input" id="surname-input" type="text"
+                    placeholder="surname">
+                <div class="valid-feedback">Surname is correct.</div>
+                <div class="invalid-feedback">Surname must contain only letters.</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label for="phone-input">Your phone:</label>
+                <input class="form-control form-control-sm" name="phone-input" id="phone-input" type="tel"
+                    placeholder="(000) 000 0000">
+                <div class="valid-feedback">Phone is correct.</div>
+                <div class="invalid-feedback">Phone must be like: (000) 000 0000.</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label for="email-input">E-mail address:</label>
+                <input class="form-control form-control-sm" name="email-input" id="email-input" type="email"
+                    placeholder="email@example.com">
+                <div class="valid-feedback">E-mail address is correct.</div>
+                <div class="invalid-feedback">E-mail address must be in format: email@example.com</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label for="univer-input">Your university:</label>
+                <input class="form-control form-control-sm" name="univer-input" id="univer-input" type="text"
+                    placeholder="university">
+                <div class="valid-feedback">Name is correct.</div>
+                <div class="invalid-feedback">University name must contain only letters.</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label for="fac-input">Your faculty:</label>
+                <input class="form-control form-control-sm" name="fac-input" id="fac-input" type="text"
+                    placeholder="faculty">
+                <div class="valid-feedback">Faculty is correct.</div>
+                <div class="invalid-feedback">Faculty name must contain only letters.</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4">
+                <label for="course-input">Your course number:</label>
+                <input class="form-control form-control-sm" name="course-input" id="course-input" type="text"
+                    placeholder="course">
+                <div class="valid-feedback">Course number is correct.</div>
+                <div class="invalid-feedback">Course number must contain only one digit.</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-8">
+                <label for="hobby-input">Your hobby:</label>
+                <input class="form-control form-control-sm" name="hobby-input" id="hobby-input" type="text"
+                    placeholder="hobby">
+                <div class="valid-feedback">Hobby is correct.</div>
+                <div class="invalid-feedback">Hobby must contain only letters.</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-8">
+                <button type="submit" class="btn btn-info btn-block">Submit input</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
